@@ -2,10 +2,10 @@ export const projects = [
   {
     title: "Trust Checker App",
     description: `An advanced fullstack web application that evaluates website trustworthiness by analyzing domain details, SSL certificates, WHOIS data, and Google Safe Browsing status.
-  
-  Frontend is built with React and MUI (Material UI) to offer a responsive and modern UI, including dark/light theme toggling, animations, and validation. Backend uses Express.js with integrations like WHOIS lookup, SSL checker, and Google's security API.
-  
-  Users can input a domain name, get real-time insights, and see scan history stored in localStorage. The project emphasizes fullstack architecture, API integration, and polished UI/UX for real-world utility.`,
+
+Frontend is built with React and MUI (Material UI) to offer a responsive and modern UI, including dark/light theme toggling, animations, and validation. Backend uses Express.js with integrations like WHOIS lookup, SSL checker, and Google's security API.
+
+Users can input a domain name, get real-time insights, and see scan history stored in localStorage. The project emphasizes fullstack architecture, API integration, and polished UI/UX for real-world utility.`,
     video: "/trustchecker.mp4",
     images: ["/Screenshot1.png", "/Screenshot2.png"],
     github: "https://github.com/Zara-Git/Trust-Checker",
@@ -22,8 +22,8 @@ export const projects = [
   {
     title: "Webflix",
     description: `This is a Netflix UI clone developed in a collaborative, agile team of three as part of a frontend education program. The app replicates the core visual experience of Netflix with dynamic routing, slick sliders, and basic search functionality.
-  
-  We used React and Vite for a fast development environment and implemented CI/CD for automatic formatting, linting, and testing using Prettier, ESLint, and Vitest. The application is modular, well-structured, and built with reusable components.`,
+
+We used React and Vite for a fast development environment and implemented CI/CD for automatic formatting, linting, and testing using Prettier, ESLint, and Vitest. The application is modular, well-structured, and built with reusable components.`,
     image: "/Webflix.png",
     github: "https://github.com/Zara-Git/Netflix-projekt",
     tags: ["React", "Vite", "Vitest", "CI/CD", "Fuse.js"],
@@ -38,8 +38,11 @@ export const projects = [
   },
   {
     title: "Strike Testing App",
-    description:
-      "Strike Testing App is a React-based internal testing tool designed with a focus on form handling, input validation, and modular UI. Built with Vite for fast development, it utilizes SCSS for styling and includes nanoid for unique ID generation. The app supports unit testing with Vitest and Jest, and uses modern testing tools like Testing Library and MSW for mock API handling. Ideal for simulating real-world form workflows and ensuring robust validation logic during development.",
+    description: `Strike Testing App is a React-based internal testing tool designed with a focus on form handling, input validation, and modular UI.
+
+Built with Vite for fast development, it utilizes SCSS for styling and includes nanoid for unique ID generation. The app supports unit testing with Vitest and Jest, and uses modern testing tools like Testing Library and MSW for mock API handling.
+
+Ideal for simulating real-world form workflows and ensuring robust validation logic during development.`,
     image: "/Strike.png",
     github: "https://github.com/Zara-Git/STRIKE-TESTING",
     tags: [
